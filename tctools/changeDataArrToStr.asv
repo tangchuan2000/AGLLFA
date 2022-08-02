@@ -1,0 +1,9 @@
+function [str] = changeDataArrToStr(arr, slip)
+   
+    for len = 1:numel(arr)
+        if (lenLayers ~= 1)
+            strLayers = strcat(strLayers, ',');
+        end
+        strLayers = strcat(strLayers, num2str(layers(lenLayers)));
+   end
+end
